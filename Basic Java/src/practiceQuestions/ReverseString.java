@@ -16,8 +16,11 @@ public class ReverseString {
 	}
 
 	public static void main(String[] args) {
-		char[] s = {'H','e','l','l','o'};
-		reverseString(s);
+		// TODO: See belo how I passed the string and
+		// converted it to an array for easier data input.
+		String s = "kinjal";
+		char[] cs = s.toCharArray();
+		reverseString(cs);
 	}
 
 }

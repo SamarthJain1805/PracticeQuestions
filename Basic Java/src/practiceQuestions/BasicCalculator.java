@@ -53,3 +53,17 @@ public class BasicCalculator {
 //	       7
 //	       /
 //	      Output: 3
+
+//TODO: when I input the first number as string "hh", it throws java.util.InputMismatchException
+//Handle the exception if a user inputs wrong data type instead of Integer.
+
+/**
+ * Use case 1:
+ * Enter the first number : 33
+ * Enter the second number : 3
+ * Enter the Operation : --
+ * The result is 30
+ *
+ * I entered the operation -- and it took this as a substract operator.
+ * this should have resulted in invalid operator, right?
+ */
